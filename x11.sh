@@ -6,5 +6,6 @@ sed -i "s/#USER/USER/g" /etc/conf.d/xinit
 rc-update add elogind
 rc-update add eudev
 rc-update add udhcpc
+rc-update add hostname
 ymp clean --allow-oem
 exit 0
