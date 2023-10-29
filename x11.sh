@@ -5,5 +5,6 @@ ymp it xinit xorg-server xterm elogind freetype xauth xkbcomp xkeyboard-config @
 sed -i "s/#USER/USER/g" /etc/conf.d/xinit
 rc-update add elogind
 rc-update add eudev
+rc-update add udhcpc
 ymp clean --allow-oem
 exit 0
